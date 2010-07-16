@@ -27,10 +27,10 @@
 	url = http://github.com/kriszyp/persevere.git
 [submodule "packages/perstore"]
 	path = packages/perstore
-	url = http://github.com/kriszyp/perstore.git
+	url = http://github.com/dmachi/perstore.git
 [submodule "packages/pintura"]
 	path = packages/pintura
-	url = http://github.com/kriszyp/pintura.git
+	url = http://github.com/dmachi/pintura.git
 [submodule "packages/promised-io"]
 	path = packages/promised-io
 	url = http://github.com/kriszyp/promised-io.git
@@ -55,3 +55,12 @@
 [submodule "packages/node"]
 	path = packages/node
 	url = http://github.com/ry/node.git
+[submodule "packages/cjsTemplate"]
+	path = packages/cjsTemplate
+	url = git@github.com:dmachi/cjsTemplate.git
+[submodule "packages/markdown-js"]
+	path = packages/markdown-js
+	url = git@github.com:dmachi/markdown-js
+[submodule "RestREST"]
+	path = ReSTREST 
+	url = http://github.com/dmachi/ReSTREST.git
