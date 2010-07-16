@@ -21,13 +21,12 @@ To run with nodejs:
 I'm still working on a good set of incantations and directions for using your own branches for all or a subset of this and will update when I have more information.  Here are a few notes:
 
 Some submodule reference docs for helping you out:
-http://speirs.org/blog/2009/5/11/understanding-git-submodules.html
-http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/
 
-Here is a command to switch submodules to a branch and pull:
+	http://speirs.org/blog/2009/5/11/understanding-git-submodules.html
+	http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/
+
+Here is a command to switch submodules to master and pull
 
 	git submodule foreach 'git checkout master; git pull'
 
-
-
-
+Better commands/directions are welcome!
