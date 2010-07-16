@@ -4,10 +4,6 @@ Clone this repository and initialize any submodules:
 
     git clone --recursive REPOSITORY 
 
-Update any sumbodules:
-
-git submodule foreach 'git submodule update'
-
 To Run off of narwhal:
 
 ./bin/persvr example
@@ -15,9 +11,23 @@ To Run off of narwhal:
 
 To build nodejs:
 
- -- compile node first:	cd packages/node && ./configure && make && cd ../../
+	cd packages/node && ./configure && make && cd ../../
 
 To run with nodejs:
 
-./bin/node-persvr example
+	./bin/node-persvr example
+
+
+I'm still working on a good set of incantations and directions for using your own branches for all or a subset of this and will update when I have more information.  Here are a few notes:
+
+Some submodule reference docs for helping you out:
+http://speirs.org/blog/2009/5/11/understanding-git-submodules.html
+http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/
+
+Here is a command to switch submodules to a branch and pull:
+
+	git submodule foreach 'git checkout master; git pull'
+
+
+
 
