@@ -25,4 +25,4 @@ set params=%params% %1
 goto loop
 :afterloop
 
-%PACKAGE_HOME%\packages\jack\bin\jackup
+%PACKAGE_HOME%\packages\jack\bin\jackup %params%
