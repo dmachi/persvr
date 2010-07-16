@@ -1,4 +1,4 @@
-o off
+@echo off
 echo Starting Persevere
 
 setlocal
