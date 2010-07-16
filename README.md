@@ -7,3 +7,17 @@ Clone this repository and initialize any submodules:
 Update any sumbodules:
 
 git submodule foreach 'git submodule update'
+
+To Run off of narwhal:
+
+./bin/persvr example
+
+
+To build nodejs:
+
+ -- compile node first:	cd packages/node && ./configure && make && cd ../../
+
+To run with nodejs:
+
+./bin/node-persvr example
+

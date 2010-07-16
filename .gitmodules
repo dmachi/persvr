@@ -52,3 +52,6 @@
 [submodule "template"]
 	path = template
 	url = http://github.com/kriszyp/persevere-template.git
+[submodule "packages/node"]
+	path = packages/node
+	url = http://github.com/ry/node.git

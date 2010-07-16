@@ -6,4 +6,4 @@ cd "$1" || {
 echo "ERROR: Unable to change directory to \"$1\", exiting..."
 exit -1
 }
-$SELF_PATH/node $SELF_PATH/../packages/nodules/lib/nodules.js
+$SELF_PATH/../packages/node/build/default/node $SELF_PATH/../packages/nodules/lib/nodules.js
