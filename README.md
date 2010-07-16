@@ -2,17 +2,6 @@ this is a collection of the persevere packages all together in a single reposito
 
 clone this repository
 
-    git clone git@github.com:neonstalwart/persvr.git persvr
-
-initialise the submodules
-
-    cd persvr
-    git submodule init
-
-update the submodules
-
-    git submodule update
-
-each of the submodules will only be at the commit they were at when i last pushed them.  if you want to get the latest commits, you will need to checkout a branch and pull the new changes into your branch.
+    git clone --recursive REPOSITORY 
 
 feel free to let me know how i can make these instructions better.
