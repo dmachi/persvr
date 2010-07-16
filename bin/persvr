@@ -1,0 +1,17 @@
+#!/bin/bash
+SELF_PATH=$(cd -P -- "$(dirname -- "$0")" && pwd -P) && SELF_PATH=$SELF_PATH/$(basename -- "$0")
+
+# resolve symlinks
+while [ -h "$SELF_PATH" ]; do
+    DIR=$(dirname -- "$SELF_PATH")
+    SYM=$(readlink -- "$SELF_PATH")
+    SELF_PATH=$(cd -- "$DIR" && cd -- $(dirname -- "$SYM") && pwd)/$(basename -- "$SYM")
+done
+
+export PACKAGE_HOME=$(dirname -- "$(dirname -- "$SELF_PATH")")
+echo PACKAGE_HOME: $PACKAGE_HOME
+export PERSVR_APP=$1
+echo PERSVR_APP $PERSVR_APP
+export PORT=$2
+echo PORT $port
+$PACKAGE_HOME/bin/start
