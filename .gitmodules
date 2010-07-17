@@ -61,3 +61,6 @@
 [submodule "packages/pintura"]
 	path = packages/pintura
 	url = git@github.com:dmachi/pintura.git
+[submodule "example"]
+	path = example
+	url = http://github.com/kriszyp/persevere-example-wiki.git
