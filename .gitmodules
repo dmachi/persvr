@@ -58,9 +58,9 @@
 [submodule "packages/markdown-js"]
 	path = packages/markdown-js
 	url = https://dmachi@github.com/dmachi/markdown-js.git
-[submodule "packages/pintura"]
-	path = packages/pintura
-	url = https://dmachi@github.com/dmachi/pintura.git
 [submodule "packages/perstore"]
 	path = packages/perstore
-	url = https://dmachi@github.com/dmachi/perstore.git
+	url = git@github.com:dmachi/perstore.git
+[submodule "packages/pintura"]
+	path = packages/pintura
+	url = git@github.com:dmachi/pintura.git
