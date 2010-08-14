@@ -8,11 +8,13 @@ while [ -h "$SELF_PATH" ]; do
     SELF_PATH=$(cd -- "$DIR" && cd -- $(dirname -- "$SYM") && pwd)/$(basename -- "$SYM")
 done
 
-export NARWHAL_OPTIMIZATION=-1
 export PACKAGE_HOME=$(dirname -- "$(dirname -- "$SELF_PATH")")
 echo PACKAGE_HOME: $PACKAGE_HOME
 export PERSVR_APP=$1
 echo PERSVR_APP $PERSVR_APP
 export PORT=$2
 echo PORT $port
+export NARWHAL_OPTIMIZATION=-1
+#export NARWHAL_DEBUG=3
+#export NARWHAL_VERBOSE=1
 $PACKAGE_HOME/bin/start
