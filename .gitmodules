@@ -28,8 +28,8 @@
 [submodule "packages/perstore"]
 	path = packages/perstore
 	url = http://github.com/kriszyp/perstore.git
-[submodule "packages/perstore"]
-	path = packages/perstore
+[submodule "packages/pintura"]
+	path = packages/pintura
 	url = http://github.com/kriszyp/pintura.git
 [submodule "packages/promised-io"]
 	path = packages/promised-io
@@ -43,8 +43,8 @@
 [submodule "packages/tunguska"]
 	path = packages/tunguska
 	url = http://github.com/kriszyp/tunguska.git
-[submodule "packages/wiky"]
-	path = packages/wiky
+[submodule "packages/wiki"]
+	path = packages/wiki
 	url = http://github.com/kriskowal/wiky.git
 [submodule "example"]
 	path = example
