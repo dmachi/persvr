@@ -49,9 +49,6 @@
 [submodule "ReSTREST"]
 	path = ReSTREST
 	url = https://dmachi@github.com/dmachi/ReSTREST.git
-[submodule "packages/templify"]
-	path = packages/templify
-	url = https://dmachi@github.com/dmachi/templify.git
 [submodule "packages/markdown-js"]
 	path = packages/markdown-js
 	url = https://dmachi@github.com/dmachi/markdown-js.git
@@ -64,3 +61,6 @@
 [submodule "example"]
 	path = example
 	url = http://github.com/kriszyp/persevere-example-wiki.git
+[submodule "packages/templify"]
+	path = packages/templify
+	url = http://github.com/dmachi/templify.git
