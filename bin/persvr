@@ -9,8 +9,10 @@ while [ -h "$SELF_PATH" ]; do
 done
 
 export PACKAGE_HOME=$(dirname -- "$(dirname -- "$SELF_PATH")")
-export NODULES_PATH=$PACKAGE_HOME/..
+export NODULES_PATH=$PACKAGE_HOME
 export PERSVR_APP=$1
 export PORT=$2
-export NARWHAL_OPTIMIZATION=-1
+#export NARWHAL_OPTIMIZATION=-1
+#export NARWHAL_VERBOSE=-1
+echo NODULES PATH= $NODULES_PATH
 $PACKAGE_HOME/bin/start
